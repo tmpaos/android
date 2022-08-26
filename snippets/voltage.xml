@@ -9,12 +9,8 @@
            revision="13"
            fetch="https://github.com/VoltageOS-staging" />
 
-  <remote  name="VoltageOS-Devices"
-           revision="12l"
-           fetch="https://github.com/VoltageOS-Devices" />
-
   <remote name="axiomos"
-          revision="13-wip"
+          revision="axiom-wip"
           fetch="https://github.com/AxiomAOSP-WIP" />
 
   <remote  name="gitlab"
@@ -42,9 +38,9 @@
 
     <!-- Device -->
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="voltage" />
-    <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="voltage" />
-    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="voltage" />
-    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="voltage" />
+    <project path="device/axiom/sepolicy" name="device_axiomos_sepolicy" remote="axiomos" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="axiomos" />
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="axiomos" />
 
     <!-- External -->
     <project path="external/tinyxml" name="external_tinyxml" remote="voltage" />
